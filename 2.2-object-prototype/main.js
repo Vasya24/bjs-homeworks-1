@@ -5,7 +5,7 @@ function initPrintAnimalSound() {
 
     const result = getAnimalSound(animal);
 
-    document.getElementById('sound').innerHTML = result;   
+    document.getElementById('sound').innerHTML = result;
 }
 
 function initCalculateStatement() {
@@ -23,5 +23,5 @@ function initCheckBirthday() {
 
     const result = checkBirthday(birthday) ? "Да" : "Нет";
 
-    document.getElementById('disclaimer').innerHTML = result;   
+    document.getElementById('disclaimer').innerHTML = result;
 }
