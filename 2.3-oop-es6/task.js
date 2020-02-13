@@ -21,7 +21,7 @@ class Weapon {
         }
     }
     getDamage() {
-        if (this.durability >= this.startDurability * 0.3) {
+        if (this.durability >= this.initialDurability * 0.3) {
             return this.attack;
         } else if (this.durability === 0) {
             return 0;
